@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:site_name" content="ARYA" />
+    <meta property="og:title" content="ARYA" />
+    <meta
+      property="og:description"
+      content="  This is Arya and I am a seasoned programmer and website developer. My passion for technology started at a young age. "
+    />
+    <!-- Image to display -->
+    <meta property="og:image" content="assets/images/loader.webp" />
+    <!-- No need to change anything here -->
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/png" />
+
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+
+    <title>Arya</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/loader.webp"
+      type="image/x-icon"
+    />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-0GH6FSMT1G"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-0GH6FSMT1G");
+    </script>
+  </head>
+
+  <body>
+    <!-- #Loader spinner  -->
+    <div class="loaderbg">
+      <img src="assets/images/loader.gif" alt="loader logo" />
+    </div>
+
+    <!-- #MAIN-->
+
+    <main>
+      <!-- #SIDEBAR -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="assets/images/aryaPP.jpg" alt="Arya" width="60" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Arya Kumar">ARYA KUMAR</h1>
+
+            <p class="title">Full Stack Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:danwichoudhary@gmail.com" class="contact-link"
+                  >aryakumar0179@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+91 9905308845" class="contact-link"
+                  >+91 6203248782</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2003-01-26">26 Feb, 2002</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Ranchi Jharkhand, INDIA</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/itsaryasharma" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/iamaryasharma/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://x.com/iamAaryasharma" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- #main-content-->
+
+      <div class="main-content">
+        <!-- #NAVBAR-->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>ABOUT</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>RESUME</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>PORTFOLIO</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- #ABOUT-->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">ABOUT ME</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              An undergrad CSE major from India who enjoys solving problems and
+              building creative projects. I focus on web development while also
+              learning Data Structures & Algorithms, and I’m exploring AI and ML
+              out of interest too. Beyond coding, I enjoy music.
+            </p>
+
+            <!-- <p>
+              Enjoys to learn about new technologies like AI, ML, Deep Learning,
+              Neural Networks, Generative AI etc. Exploring the universe, cosmos
+              and knowing more about my world makes me even more alive. Besides
+              all of this I am also good at frontend, photography and Guitar.
+            </p> -->
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <!-- DSA div starts here  -->
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Data Structure & Algorithm
+                  </h4>
+
+                  <p class="service-item-text">
+                    Practicing problem-solving daily to strengthen logical
+                    thinking and write efficient, optimized code solutions.
+                  </p>
+                </div>
+              </li>
+
+              <!-- web dev list item starts here  -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="assets/images/icon-dev.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+                  <p class="service-item-text">
+                    Building small projects using HTML, CSS, JavaScript, and
+                    learning backend with Node, Express, and databases.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="assets/images/icons8-quill-with-ink.png"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Artificial Intelligence & Machine Learning
+                  </h4>
+                  <p class="service-item-text">
+                    Exploring the fundamentals of AI and ML, building small
+                    projects while growing skills and knowledge in this exciting
+                    field.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Community Work</h4>
+
+                  <p class="service-item-text">
+                    Activly particpitaing in global community
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #RESUME-->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">RESUME</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">B.Tech</h4>
+
+                <span>2024 — 2027</span>
+
+                <p class="timeline-text">Pursuing</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  IT Support Engineer (Trainee)
+                </h4>
+
+                <span> Mar- 2024 to July-2024</span>
+
+                <p class="timeline-text">
+                  Worked as IT Support Enginner for the ICICI Bank (client) in
+                  Navi Mumbai.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Knowledge Expert</h4>
+
+                <span> July- 2023 to December-2023</span>
+
+                <p class="timeline-text">
+                  Worked as Knowledge expert(for esclation cx calls) at
+                  Concentrix pvt ltd in Flipkart process.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Web Development</h4>
+
+                <p class="timeline-text">
+                  Html, CSS, javascript, Bootstrap, Tailwind CSS, Reactjs,
+                  Nodejs, Expressjs, MySQL.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Data Structure & Algorithm
+                </h4>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Tools</h4>
+
+                <p class="timeline-text">Git, VS code.</p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Programing Lanuages</h4>
+
+                <p class="timeline-text">C++, Java, Python.</p>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!-- #PORTFOLIO-->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">PORTFOLIO</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <!-- <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li> -->
+
+              <!-- <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li> -->
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>AI & ML</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <!-- <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li> -->
+
+                <!-- <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li> -->
+
+                <li class="select-item">
+                  <button data-select-item>AI & ML</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item-1 project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://real-time-chat-application-rk6g.onrender.com/"
+                  target="_blank"
+                >
+                  <figure class="project-img project-img-1">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="/assets/images/chatApp.png"
+                      alt="real-time-chat-application"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Real Time Chat Application</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="/assets/images/personalPortfolio.png"
+                      alt="Arya Portfolio"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Personal Portfolio Webpage</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://itsaryasharma.github.io/interactive-quiz-application/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="/assets/images/QuizApp.png"
+                      alt="Interactive Quiz Application"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Interactive Quiz Application</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://itsaryasharma.github.io/E-Learning-Platform-UI/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="/assets/images/E-learning-platform.png"
+                      alt="E Learning Platform UI"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">E Learning Platform UI</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ai & ml"
+              >
+                <a
+                  href="https://github.com/itsaryasharma/MNIST-ANN-Classifier"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="/assets/images/dataset-card.png"
+                      alt="MNIST ANN Classifier"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MNIST ANN Classifier</h3>
+
+                  <p class="project-category">AI & ML</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="assets/js/script.js" async></script>
+
+    <!-- ionicon link-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
