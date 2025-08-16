@@ -49,10 +49,7 @@ In summary, this project delivers a clean, responsive, and single-page portfolio
 - Maintaining a **consistent design system** across the webpage
 - Preparing a portfolio that is **ready to showcase to potential employers or clients**
 
-
-
 ---
-
 
 ## 🤝 CONTRIBUTING
 
@@ -71,19 +68,12 @@ MIT License
 
 # OUTPUTS
 
-<img width="1917" height="1013" alt="Image" src="https://github.com/user-attachments/assets/a974d587-38e0-4439-b8e3-fb30a41bc131" />
+<img width="1917" height="905" alt="Image" src="https://github.com/user-attachments/assets/92248c5d-30f0-4786-8339-c9b3dcdf331b" />
 
-<img width="1918" height="1012" alt="Image" src="https://github.com/user-attachments/assets/3532d7ce-f205-47ff-81a0-74411920f26c" />
+<img width="1911" height="905" alt="Image" src="https://github.com/user-attachments/assets/8312d2ff-01b2-4526-9f60-5ee0eb9d2516" />
 
-<img width="1915" height="1017" alt="Image" src="https://github.com/user-attachments/assets/4ca627f0-a3e3-4e2a-866a-ca0d63010c53" />
-
-<img width="1913" height="1013" alt="Image" src="https://github.com/user-attachments/assets/f40c8e04-f3f2-45b6-906a-b5e0fc3d5533" />
-
-<img width="1917" height="1016" alt="Image" src="https://github.com/user-attachments/assets/78b3fe7b-adf6-411d-a1f7-8fb0139a398c" />
-
-<img width="1918" height="1016" alt="Image" src="https://github.com/user-attachments/assets/dc855ab0-29c1-428d-bbaa-3ee9d5c0121b" />
+<img width="1916" height="911" alt="Image" src="https://github.com/user-attachments/assets/bf7a6445-ef59-47c0-bcd9-e162cebfec1f" />
 
 ---
 
 > **Thank you for reviewing my project!**
-
